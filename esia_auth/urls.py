@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django.conf.urls import url
+from django.urls import path
 from django.conf import settings
 from django.utils.module_loading import import_string
 
@@ -14,6 +14,6 @@ else:
 
 
 urlpatterns = [
-    url(r'login/$', login_view, name='login'),
-    url(r'oauth-link/$', esia_oauth_link_view, name='link'),
+    path(r'login/$', login_view, name='login'),
+    path(r'oauth-link/$', esia_oauth_link_view, name='link'),
 ]
