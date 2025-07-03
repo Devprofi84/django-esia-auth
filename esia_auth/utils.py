@@ -3,7 +3,7 @@ import os
 
 from django.conf import settings
 
-from esia_connector.client import EsiaAuth, EsiaSettings
+from esia.client import EsiaAuth, EsiaSettings
 
 
 def get_os_file(name):

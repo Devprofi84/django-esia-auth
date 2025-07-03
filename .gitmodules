@@ -1,3 +1,3 @@
-[submodule "esia"]
+[submodule "esia-oauth2"]
 	path = esia-oauth2
 	url = git@github.com:Devprofi84/esia-oauth2.git
